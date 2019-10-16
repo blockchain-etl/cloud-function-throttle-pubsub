@@ -19,7 +19,7 @@ module.exports.subscribe = async (data, context, callback) => {
         const topicName = getEnvVar('DESTINATION_TOPIC');
         await sendToPubsub(topicName, data.data);
     } else {
-        console.log(`The message was throttled because the lock didn't expire.`, data);
+        console.log(`The message was throttled because the lock hasn't expired.`, data);
     }
     callback();
 };
