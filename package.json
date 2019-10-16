@@ -1,0 +1,12 @@
+{
+  "name": "throttle-pubsub",
+  "version": "0.0.1",
+  "description": "Throttle PubSub messages",
+  "main": "index.js",
+  "dependencies": {
+    "semver": "^5.5.1",
+    "request": "^2.88.0",
+    "@google-cloud/storage": "^3.2.1",
+    "@google-cloud/pubsub": "^1.1.2"
+  }
+}
