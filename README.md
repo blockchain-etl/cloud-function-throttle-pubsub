@@ -1,4 +1,4 @@
-# cloud-function-throttle-pubsub
+# Throttle Pub/Sub Cloud Function
 
 Google Cloud function that can throttle messages in a Pub/Sub topic.
 It uses a GCS bucket with a Retention Policy to store a lock file. 
